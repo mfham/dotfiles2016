@@ -16,6 +16,8 @@
     popwin
     flycheck
     recentf-ext
+    swiper
+    counsel
     ))
 
 (let ((not-installed (loop for x in installing-package-list
