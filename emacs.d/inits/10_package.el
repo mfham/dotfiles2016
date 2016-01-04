@@ -19,6 +19,7 @@
     swiper
     counsel
     rainbow-delimiters
+    project-explorer
     ))
 
 (let ((not-installed (loop for x in installing-package-list
