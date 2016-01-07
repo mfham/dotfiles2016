@@ -20,6 +20,7 @@
     counsel
     rainbow-delimiters
     project-explorer
+    which-key
     ))
 
 (let ((not-installed (loop for x in installing-package-list
