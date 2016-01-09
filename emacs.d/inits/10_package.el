@@ -22,6 +22,7 @@
     project-explorer
     which-key
     material-theme
+    markdown-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
