@@ -10,7 +10,7 @@ fi
 PATH=$PATH:/usr/local/bin:$HOME/.composer/vendor/bin
 
 #alias e=/usr/bin/emacs
-alias e=/home/mfham/local/bin/emacs
+alias e=$HOME/local/bin/emacs
 alias rm='rm -i'
 export TERM="xterm-256color"
 

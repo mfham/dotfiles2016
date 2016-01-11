@@ -3,11 +3,9 @@
 ;;;;;;;;;;;;;;;
 (require 'yasnippet)
 
-;; ~/.emacs.d/にsnippetsというフォルダを作っておきましょう
+;; put snippets into directory
 (setq yas-snippet-dirs
-      '("~/.emacs.d/snippets" ;; 作成するスニペットはここに入る
-        "~/.emacs.d/elisp/elpa/yasnippet-20151227.1550/snippets" ;; 最初から入っていたスニペット(省略可能)
-        ))
+      '("~/.emacs.d/elisp/elpa/snippets"))
 (yas-global-mode 1)
 
 ;; 単語展開キーバインド (ver8.0から明記しないと機能しない)
