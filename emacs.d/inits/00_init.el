@@ -59,3 +59,6 @@
 
 ;; scroll 1 line
 (setq scroll-step 1)
+
+;; don't insert magic comment automatically
+(setq ruby-insert-encoding-magic-comment nil)
