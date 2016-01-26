@@ -28,3 +28,6 @@
 ;; 40_keybinds.el
 ;; recentf
 (global-set-key (kbd "C-x C-m") 'recentf-open-files)
+
+;; avy
+(global-set-key (kbd "C-c C-v") 'avy-goto-char)

@@ -23,6 +23,7 @@
     which-key
     material-theme
     markdown-mode
+    avy
     ))
 
 (let ((not-installed (loop for x in installing-package-list
