@@ -4,11 +4,9 @@
 (defvar installing-package-list
   '(
     auto-complete
-    redo+
     js2-mode
     php-mode
     ruby-mode
-    ruby-block
     ruby-end
     rspec-mode
     yasnippet

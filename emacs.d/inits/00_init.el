@@ -44,10 +44,6 @@
 ;; http://dev.ariel-networks.com/wp/documents/aritcles/emacs/part11
 (require 'ibuffer)
 
-;; redo+.el
-(require 'redo+)
-(setq undo-no-redo t)
-
 ;; add pair like () automatically
 (electric-pair-mode t)
 
