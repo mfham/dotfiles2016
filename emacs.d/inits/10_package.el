@@ -22,6 +22,7 @@
     material-theme
     markdown-mode
     avy
+    fish-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
